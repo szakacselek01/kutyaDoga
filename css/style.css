@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    background: url("../kep/scoobi.webp") no-repeat;
+    background-size: cover;
+    font-family: Roboto, sans-serif;
+}
+* {
+	box-sizing: border-box
+}
+.wrapper {
+    max-width: 800px;
+    margin: 40px auto;
+}
+header {
+    background: url("../kep/scrapi.jpg") no-repeat center;
+    height: 450px;
+    position: relative;
+  
+}
+nav {
+    background: rgba(190,0,0,0.8);
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav>ul>li {
+    float: left;
+}
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    display: block;
+}
+nav a:hover {
+    background: rgba(0,0,0,0.8);
+}
+nav .has-submenu {
+    position: relative;
+}
+nav .submenu {
+    position: absolute;
+    width: 220px;
+    background: rgba(190,0,0,1);
+    display: none;
+}
+nav .has-submenu>a {
+    padding-right: 35px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+main {
+    background: lightblue;
+    padding: 40px;
+}
+main h1 {
+    margin-top: 0;
+}
+nav a:hover {
+    background: rgba(0,0,0,0.8);
+}
+
+.left-link,
+.right-link {
+    position: fixed;
+    top: 43vh;
+    font-size: 5em;
+}
+
+.left-link a,
+.right-link a {
+    text-decoration: none;
+    padding: 20px;
+}
+
+.left-link {
+    left: 0;
+}
+
+.right-link {
+    right: 0
+}
